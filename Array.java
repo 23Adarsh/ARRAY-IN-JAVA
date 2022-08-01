@@ -1,43 +1,33 @@
-import java.util.Scanner;
 public class Array {
     public static void main(String[] args)
     {
-        // ** firstly we print static type **
-       // 1) Type -:
-       // int a[]={10,20,3,4};
-       // System.out.print(a[3]);
+     
+    //   1) Find position number -:
+        // int arr[] = {1,2,3,4,5,};
+        // System.out.print(" Arrays Position Numbers -:\n");
+        // System.out.println(arr[0]);
+        // System.out.println(arr[4]);
+        // System.out.println(arr[3]);
+       
+        // 2) print array elements
+        // int arr[] = new int[3]; 
+        // arr[0]=1;
+        // arr[1]=2;
+        // arr[2]=10;
+        
+        // System.out.print("Array Element are -:");
+        // for(int i=0;i<arr.length;i++)
+        // {
+        //     System.out.print(arr[i]+" ");
+        // }
+        
+        // 3) Print Array Elements -:
+        // int arr[] = { 1,2,3,4,5};
 
-       // Type -:2  
-        int a[] = new int [4];
-         a[0] = 10;
-         a[1] = 20;
-         a[2] = 30;
-      
-        for(int i=0;i<3;i++)
-       {
-           System.out.print(a[i]+" ");
-       }
-
-      //  Second Type is Take Value From User ...
-
-      int size;
-      Scanner s = new Scanner(System.in);
-      
-      System.out.print("Enter Array Size -:\n");
-      size = s.nextInt();
-      
-      System.out.print("Enter Elements -:\n");
-      int a[] = new int [size];
-
-      for(int i=0;i<size;i++)
-      {
-         a[i] = s.nextInt();
-      }
-       System.out.print("Elements are in array -:\n");
-      for(int i=0;i<size;i++)
-      {
-         System.out.print(a[i]+" ");
-      }
-
+        // System.out.print("Array Element are -:");
+        // for(int i=0;i<arr.length;i++)
+        // {
+        //     System.out.print(arr[i]+" ");
+        // }
     }
 }
